@@ -1,8 +1,25 @@
-> Why do I have a folder named ".expo" in my project?
-The ".expo" folder is created when an Expo project is started using "expo start" command.
-> What do the files contain?
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
-> Should I commit the ".expo" folder?
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+# 📱 Currículo em React Native
+
+Este é o meu primeiro projeto desenvolvido com **React Native**, onde criei um aplicativo simples de **currículo digital** para apresentação pessoal e profissional.
+
+## ✨ Funcionalidades
+
+- Exibição do nome completo
+- Exibição de uma imagem (avatar)
+- Layout responsivo com estilo personalizado
+- Preparado para rodar em dispositivos móveis e no navegador (via React Native Web)
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Native Web](https://necolas.github.io/react-native-web/)
+- JavaScript (ES6+)
+- Estilização com `StyleSheet`
+
+## 🚀 Como executar o projeto
+npm install
+npx expo start
+
+
+![Design sem nome (1)](https://github.com/user-attachments/assets/5095fbe2-4e35-44bb-8bb3-a1380c4fb88f)
